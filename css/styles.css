@@ -1,0 +1,172 @@
+/* title-section */
+
+#title {
+  background-color: #ff4c68;
+}
+
+h1, h2, h3, h4, h5, h6  {
+  font-family: 'Montserrat', sans-serif;
+}
+
+
+
+h2 {
+  line-height: 1.5;
+font-size: 2rem;
+text-align:center;
+}
+/* Headings */
+.big-heading {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 2.5rem;
+  line-height: 1.5;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color: white;
+}
+.container-fluid {
+  padding: 3% 15%;
+}
+
+.i-phone-img {
+  transform: rotate(25deg);
+  height: 500px;
+ margin-right: 30px;
+position: absolute;
+}
+
+.navbar-brand {
+  font-family: 'Ubuntu', sans-serif;
+  font-size: 1.5rem;
+
+}
+.download-button {
+  margin: 5% 3% 5% 0%;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:1rem;
+
+}
+/* Features-section */
+.Features {
+   font-family: 'Montserrat', sans-serif;
+   font-size: 1.5rem;
+  text-align:center;
+}
+.Features-p {
+  font-family: 'Ubuntu', sans-serif;
+  color:#8f8f8f;
+ width: 80%;
+ margin:auto;
+ text-align: center;
+
+}
+
+.icon {
+  margin-top: 30px;
+  margin-bottom: 30px;
+  color:#ef8172;
+  text-align: center;
+}
+.icons {
+  color:#ef8172;
+
+}
+
+a:hover {
+  color: #ff4c68;
+}
+#features {
+  padding: 7% 15%;
+  background-color: #fff;
+  position: relative;
+  z-index: 1;
+}
+/* Testimonial-section */
+
+#testimonials {
+  text-align: center;
+
+  background-color: #ef8172;
+  color: #fff;
+}
+
+
+.testimonial-img {
+  width:10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+/* Press-section */
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 4%;
+}
+
+.press-logo {
+  width:15%;
+  margin:20px 20px 50px;
+}
+
+.carousel-item {
+padding: 7% 15%;
+}
+/* Pricing-section */
+ #pricing {
+  text-align: center;
+  padding-top: 60px;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.Pricing {
+  padding: 5% 12%;
+}
+
+.btn-pricing {
+  width: 80%;
+}
+/* Call to action(CTA)-section */
+#cta {
+  background-color: #ff4c68;
+  text-align: center;
+  padding: 7% 15%;
+
+}
+.cta {
+  font-family: 'Montserrat', sans-serif;
+  color: #fff;
+  width: 60%;
+  margin: auto;
+  margin-bottom: 45px;
+  line-height: 1.5;
+}
+.btn-cta {
+  margin: 10px;
+  font-family: 'Ubuntu', sans-serif;
+  font-size:1rem;
+
+}
+/* Footer-section */
+#footer {
+  padding: 7% 15%;
+  text-align: center;
+}
+
+.f-icons {
+  padding-right: 20px;
+  color:#000;
+  padding-bottom: 25px;
+}
+/* Responsive-Section using CSS */
+@media (max-width:1000px){
+  #title {
+    text-align:center;
+  }
+  .i-phone-img {
+    transform:rotate(0deg);
+    position: static;
+  }
+}
